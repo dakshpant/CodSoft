@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Merriweather&display=swap');
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: cadetblue;
+}
+.button{
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 20%;
+    cursor: pointer;
+    width: 60px;
+    font-size: 19px;
+    text-align: center;
+}
+.row{
+    margin: 8px 0;
+}
+.row input{
+    margin: 0;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+.text-center{
+    text-align: center;
+}
+/* .bg-red{
+    background-color: cadetblue;
+} */
+.mx-auto{
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} 
+.flex-col{
+    flex-direction: column;
+}
+.items-center{
+    align-items: center;
+}
